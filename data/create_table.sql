@@ -1,0 +1,22 @@
+CREATE TABLE resultado_pcr (
+    id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+    codigo INTEGER UNSIGNED NOT NULL,
+    empresa VARCHAR(255) NULL,
+    paciente VARCHAR(255) NULL,
+    idade INTEGER UNSIGNED,
+    sexo CHAR(1) NULL,
+    raca VARCHAR(255) NULL,
+    cep VARCHAR(9) NULL,
+    bairro VARCHAR(255) NULL,
+    municipio VARCHAR(255) NULL,
+    estado CHAR(2) NULL,
+    sintomas CHAR(1) NULL,
+    hospitalizado CHAR(1) NULL,
+    viagem_exterior CHAR(1) NULL,
+    local_transmissao CHAR(1) NULL,
+    contato_suspeito CHAR(1) NULL,
+    unidade_saude CHAR(1) NULL,
+    data_coleta DATE NOT NULL,
+    resultado CHAR(1) NULL,
+    PRIMARY KEY(id)
+);

@@ -1,0 +1,18 @@
+{
+  "name": "pcrinindustry",
+  "version": "1.0.0",
+  "description": "A tool for studying PCR results in industry.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Luiz Souza Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0",
+    "sequelize-auto": "^0.8.8"
+  }
+}
